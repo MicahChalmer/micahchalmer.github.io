@@ -1,0 +1,7 @@
+---
+layout: page
+---
+{% for post in site.posts %}
+{% assign post_content=post.excerpt %}
+{% include post.html %}
+{% endfor %}

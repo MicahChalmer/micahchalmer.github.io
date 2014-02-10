@@ -1,0 +1,9 @@
+# These are github pages forced configs:
+safe: true
+lsi: false
+pygments: true
+
+# My configs:
+excerpt_separator: "<!-- ~~fold~~ -->"
+permalink: /blog/:year/:title
+markdown: kramdown

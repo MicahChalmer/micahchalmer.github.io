@@ -1,0 +1,12 @@
+---
+layout: page
+---
+{% capture post_content %}{{ content }}{% endcapture %}
+{% assign post = page %}
+{% include post.html %}
+<div id="disqus_thread">
+  <script async type="text/javascript" src="http://micahchalmer.disqus.com/embed.js"></script>
+</div>
+<noscript>
+  <a href="http://micahchalmer.disqus.com/embed.js?url=ref">View comments</a>
+</noscript>

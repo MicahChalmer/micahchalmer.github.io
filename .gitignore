@@ -1,0 +1,6 @@
+.sass-cache/
+.rbenv-version
+.ruby-version
+*#*
+/tmp/
+_site
