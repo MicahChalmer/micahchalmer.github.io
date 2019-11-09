@@ -1,7 +1,7 @@
 # These are github pages forced configs:
 safe: true
 lsi: false
-pygments: true
+highlighter: rouge
 
 # My configs:
 excerpt_separator: "<!-- ~~fold~~ -->"
