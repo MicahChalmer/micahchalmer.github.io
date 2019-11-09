@@ -11,7 +11,7 @@ blog_title: "Micah Chalmer"
     <meta name="author" content="">
     <link rel="shortcut icon" href="/favicon.ico">
 
-    <title>{% if page.title %}{{page.title}} - {% endif %}{{page.blog_title}}</title>
+    <title>{% if page.title %}{{page.title}} - {% endif %}{{layout.blog_title}}</title>
 
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
 
@@ -30,7 +30,7 @@ blog_title: "Micah Chalmer"
     <div class="container">
 
       <div class="blog-header">
-        <h1 class="blog-title"><a href="/{{site.url}}">{{page.blog_title}}</a></h1>
+        <h1 class="blog-title"><a href="/{{site.url}}">{{layout.blog_title}}</a></h1>
         <p class="lead blog-description">It's a blog.</p>
       </div>
 
